@@ -3,29 +3,29 @@ import { Clock, Shield, Headphones, Truck } from "lucide-react";
 const services = [
   {
     icon: Clock,
-    title: "Flexible Rental",
-    description: "Hourly, daily, weekly, or monthly rental options to suit your project timeline",
+    title: "Flexible Booking",
+    description: "Book equipment for any duration - from a few hours to multiple days for your event",
   },
   {
     icon: Shield,
     title: "Quality Guaranteed",
-    description: "All equipment is professionally maintained and tested before every rental",
+    description: "All equipment is professionally maintained and tested to ensure your event goes smoothly",
   },
   {
     icon: Headphones,
     title: "24/7 Support",
-    description: "Round-the-clock technical support to help you with any equipment issues",
+    description: "Round-the-clock assistance during your event to help with any technical issues",
   },
   {
     icon: Truck,
-    title: "Delivery Available",
-    description: "Equipment delivery and pickup services available in your area",
+    title: "Event Delivery",
+    description: "We deliver and set up equipment at your event venue and pick up after the event",
   },
 ];
 
 const Services = () => {
   return (
-    <section className="py-24 bg-background relative overflow-hidden">
+    <section className="py-24 bg-secondary/20 relative overflow-hidden">
       {/* Decorative grid pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5" />
       
@@ -33,7 +33,7 @@ const Services = () => {
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="mb-6">Why Choose Us</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Professional service you can trust, every time
+            Professional service for your special occasions
           </p>
         </div>
 

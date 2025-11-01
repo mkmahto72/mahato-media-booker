@@ -6,26 +6,26 @@ import tvImage from "@/assets/tv-display.jpg";
 const equipment = [
   {
     title: "Professional Cameras",
-    description: "Cinema-grade cameras for all your production needs",
+    description: "Capture every precious moment of your celebration",
     image: cameraImage,
     icon: Camera,
     features: [
-      "4K & 8K Cinema Cameras",
-      "DSLR & Mirrorless Systems",
-      "Professional Lenses",
-      "Camera Rigs & Stabilizers",
+      "4K & 8K Video Recording",
+      "Professional Photography Cameras",
+      "Event Videography Equipment",
+      "Photo Booth Cameras",
     ],
   },
   {
     title: "TV & Displays",
-    description: "High-quality displays for events and presentations",
+    description: "Perfect for event presentations and entertainment",
     image: tvImage,
     icon: Tv,
     features: [
-      "4K & 8K Smart TVs",
-      "Commercial Grade Displays",
-      "LED Video Walls",
+      "Large Screen TVs for Events",
+      "LED Display Screens",
       "Projectors & Screens",
+      "Video Wall Solutions",
     ],
   },
 ];
@@ -45,7 +45,7 @@ const Equipment = () => {
           </div>
           <h2 className="mb-6">Our Equipment</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Professional-grade equipment for every project, delivered with excellence
+            Professional-grade equipment to make your events memorable
           </p>
         </div>
 

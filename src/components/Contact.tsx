@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Serving clients across India",
+    value: "Serving events across India",
     href: null,
   },
   {
@@ -30,15 +30,15 @@ const contactInfo = [
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-24 bg-secondary/20 relative overflow-hidden">
+    <section id="contact" className="py-24 bg-background relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-20 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
       
       <div className="container px-4 mx-auto relative z-10">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="mb-6">Get In Touch</h2>
+          <h2 className="mb-6">Book for Your Event</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to book equipment? Let's make your project shine
+            Ready to make your celebration unforgettable? Contact us today
           </p>
         </div>
 
@@ -77,9 +77,9 @@ const Contact = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent" />
             
             <div className="relative z-10">
-              <h3 className="text-3xl md:text-4xl font-bold mb-4">Book Your Equipment Now</h3>
+              <h3 className="text-3xl md:text-4xl font-bold mb-4">Book Equipment for Your Event</h3>
               <p className="text-lg md:text-xl mb-8 opacity-95 max-w-2xl mx-auto">
-                Call us or send an email to discuss your requirements and get a personalized quote
+                Whether it&apos;s a wedding, birthday, or any celebration - call us to discuss your requirements and get a personalized quote
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 

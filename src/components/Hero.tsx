@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-20 mx-auto">
         <div className="max-w-4xl animate-fade-in-up">
           <div className="inline-block mb-6 px-4 py-2 bg-accent/20 backdrop-blur-sm rounded-full border border-accent/30">
-            <span className="text-accent-foreground text-sm font-semibold">Professional Equipment Rental</span>
+            <span className="text-accent-foreground text-sm font-semibold">Events & Celebrations Equipment</span>
           </div>
           
           <h1 className="text-white mb-6 leading-tight">
@@ -34,17 +34,17 @@ const Hero = () => {
           </h1>
           
           <p className="text-2xl md:text-3xl text-white/95 mb-6 leading-relaxed font-medium">
-            Premium Camera & TV Rentals
+            Camera & TV Rentals for Every Event
           </p>
           
           <p className="text-lg md:text-xl text-white/80 mb-10 leading-relaxed max-w-2xl">
-            Your trusted partner for high-quality equipment rentals. From cinema cameras to professional displays, we deliver excellence for every project.
+            Make your special moments unforgettable. Professional cameras and displays for weddings, birthdays, parties, and all celebrations.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button variant="hero" size="lg" className="text-lg group" asChild>
               <a href="#contact">
-                Get Started
+                Book for Your Event
                 <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
               </a>
             </Button>
